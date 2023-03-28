@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Aplikacja" Class="BazuniaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.uzytkownicy" Member="uzytkownicy">
+    <Type Name="uzytkownicy">
+      <Column Name="id_uzytkownika" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="imie" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="nazwisko" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="data_urodzenia" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="login" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="haslo" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="plec" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
