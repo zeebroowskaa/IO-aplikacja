@@ -2,20 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <style>
-        .formularz{
-            margin: auto;
-            width: 50%;
-            padding: 10px;
-            background-color: #ffffff;
-            font-size: 12px;
-        }
-        .formularz p {
-            text-align: center;
-        }
-        .center {
-            text-align: center;
-            margin: 0 auto;
-        }   
+          
         
     </style>
     

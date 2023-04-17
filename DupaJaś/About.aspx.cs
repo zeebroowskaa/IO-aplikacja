@@ -23,8 +23,8 @@ namespace DupaJaś
             {
                if(TextBoxLogin.Text == uu.login && TextBoxHaslo.Text == uu.haslo)
                 {
-                    Label.Text = "Witaj ";
-                    Label.Text +=  uu.imie;
+                    //Label.Text = "Witaj ";
+                    //Label.Text +=  uu.imie;
                     TextBoxLogin.Text = "";
                     TextBoxLogin.BackColor = default;
                     TextBoxHaslo.BackColor = default;
@@ -32,9 +32,9 @@ namespace DupaJaś
                 }
                 else
                 {
-                    TextBoxLogin.BackColor = Color.LightPink;
-                    TextBoxHaslo.BackColor = Color.LightPink;
-                    Label.Text = "Błędne Hasło lub Login";
+                    //TextBoxLogin.BackColor = Color.LightPink;
+                    //TextBoxHaslo.BackColor = Color.LightPink;
+                    //Label.Text = "Błędne Hasło lub Login";
                 }
 
             }

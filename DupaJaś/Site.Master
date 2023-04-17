@@ -1,27 +1,4 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DupaJaś.SiteMaster" %>
-<style>
-.navbar2 {
-  float:right;
-  top: 0%;
-  height:2%;
-  font-size: 10px;
-  width: 100%;
-}
-
-.navbar1 {
- position:absolute;
-  top: 1%;
-  height:5%;
-  font-size: 18px;
-  width: 100%;
-}
-.test{
-
-  position:absolute;
-  left:80%;
-}
-
-    </style>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -35,7 +12,7 @@
     </asp:PlaceHolder>
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
 
 </head>
     
