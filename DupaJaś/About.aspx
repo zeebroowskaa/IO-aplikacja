@@ -24,7 +24,7 @@
 												
 											</div>
 											<asp:Button ID="ButtonZal" runat="server" class="btn mt-4" OnClick="ButtonZal_Click" Text="Zaloguj" />
-                     <!- <p class="mb-0 mt-4 text-center"><a </a></p>
+                     <!- <p class="mb-0 mt-4 text-center"></p>
 				      					</div>
 			      					</div>
 			      				</div>
